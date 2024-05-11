@@ -12,8 +12,8 @@ from langchain.callbacks import get_openai_callback
 
 load_dotenv()
 os.getenv("OPENAI_API_KEY")
-st.set_page_config(page_title="AbdulPDF", page_icon="🚀")
-st.header("AbdulPDF")
+st.set_page_config(page_title="PDFBot", page_icon="🚀")
+st.header("PDFBot")
 
 pdf = st.file_uploader("Upload a pdf", type="pdf")
 if pdf is not None:
